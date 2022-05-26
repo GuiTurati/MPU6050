@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For MPU6050
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1) - Tipos de Dados
+#######################################
+
+MPU6050	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2) - Métodos e Funções
+#######################################
+
+begin	KEYWORD2
+MPU_loop	KEYWORD2
+getAcel_x	KEYWORD2
+getAcel_y	KEYWORD2
+getAcel_z	KEYWORD2
+getGiro_x	KEYWORD2
+getGiro_y	KEYWORD2
+getGiro_z	KEYWORD2
+getTemp	KEYWORD2
+
+#######################################
+# Constants (LITERAL1) - Constantes
+#######################################
