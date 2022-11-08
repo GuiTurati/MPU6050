@@ -2,7 +2,7 @@
 /*************************
   Name: displayNoSerial
   Creation Date: 26/05/2022
-  Last Modified Date: 26/05/2022
+  Last Modified Date: 08/11/2022
   Creator: Guilherme Turati Pedroza
   Description: Sends the values of the MPU-6050 to the Serial Monitor
 *************************/
@@ -20,7 +20,8 @@ void setup() {
 }
 /*********LOOP*********/
 void loop() {
-  sensor.MPU_loop();
+  
+  // Prints acceleration values on the Serial Monitor
   Serial.print("AcX: ");
   Serial.print(sensor.getAcel_x());
   Serial.print(" | AcY: ");
@@ -33,7 +34,7 @@ void loop() {
   Serial.print(" | Tmp: ");
   Serial.print(sensor.getTemp());
 
-  // Prints acceleration values on the Serial Monitor
+  // Print gyro values to Serial Monitor
   Serial.print(" | GyX: ");
   Serial.print(sensor.getGiro_x());
   Serial.print(" | GyY: ");

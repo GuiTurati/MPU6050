@@ -7,7 +7,6 @@ class MPU6050 {
   public:
 	MPU6050(int endereco = 0x68);
 	void begin();
-	void MPU_loop();
 	float getAcel_x();
 	float getAcel_y();
 	float getAcel_z();

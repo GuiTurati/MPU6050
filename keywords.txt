@@ -13,7 +13,6 @@ MPU6050	KEYWORD1
 #######################################
 
 begin	KEYWORD2
-MPU_loop	KEYWORD2
 getAcel_x	KEYWORD2
 getAcel_y	KEYWORD2
 getAcel_z	KEYWORD2
